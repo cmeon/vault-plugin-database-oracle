@@ -4,6 +4,8 @@ import (
 	"log"
 	"os"
 
+	_ "github.com/mattn/go-oci8"
+
 	plugin "github.com/hashicorp/vault-plugin-database-oracle"
 	"github.com/hashicorp/vault/api"
 )
